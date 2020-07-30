@@ -78,6 +78,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3311AB24D2AE770095F454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA3311AC24D2AE870095F454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2FA724D04A01001EC9D3 /* LaunchScreen.storyboard */,
+				FA6C2F9F24D049FD001EC9D3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3311AD24D2AEA90095F454 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2F9D24D049FD001EC9D3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA3311AE24D2AEB30095F454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2F9924D049FD001EC9D3 /* AppDelegate.swift */,
+				FA6C2F9B24D049FD001EC9D3 /* SceneDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FA6C2F8D24D049FD001EC9D3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +134,11 @@
 		FA6C2F9824D049FD001EC9D3 /* LyftClone */ = {
 			isa = PBXGroup;
 			children = (
-				FA6C2F9924D049FD001EC9D3 /* AppDelegate.swift */,
-				FA6C2F9B24D049FD001EC9D3 /* SceneDelegate.swift */,
-				FA6C2F9D24D049FD001EC9D3 /* ViewController.swift */,
-				FA6C2F9F24D049FD001EC9D3 /* Main.storyboard */,
+				FA3311AB24D2AE770095F454 /* Model */,
+				FA3311AD24D2AEA90095F454 /* Controller */,
+				FA3311AC24D2AE870095F454 /* View */,
+				FA3311AE24D2AEB30095F454 /* Supporting Files */,
 				FA6C2FA524D04A01001EC9D3 /* Assets.xcassets */,
-				FA6C2FA724D04A01001EC9D3 /* LaunchScreen.storyboard */,
 				FA6C2FAA24D04A01001EC9D3 /* Info.plist */,
 				FA6C2FA224D049FD001EC9D3 /* LyftClone.xcdatamodeld */,
 			);
